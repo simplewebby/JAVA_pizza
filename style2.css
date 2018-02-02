@@ -1,0 +1,30 @@
+
+.root{
+	-fx-background-color:#8c2617;
+}
+
+.label {
+  
+ -fx-padding: 10px;
+ -fx-border-insets: 10px;
+ -fx-background-insets: 10px;
+}
+
+.button {
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Regular";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#e0a656, #c44b27);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-padding: 10px;
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(#ffeba0, #c44b27);
+}
+.text-area .content {
+ -fx-background-color:#ffc87b ;
+ -fx-padding: 10px;
+ -fx-border-insets: 10px;
+ -fx-background-insets: 10px;
+}
